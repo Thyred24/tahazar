@@ -1,0 +1,52 @@
+.wrapper{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.title{
+    font-size: 128px;
+    max-width: 650px;
+}
+.overview{
+    font-size: 22px;
+}
+
+.heroSvg{
+    margin-top: -40px;
+}
+
+.elips{
+    position: absolute;
+    top: 350px;
+    left: -100px;
+    width: 200px;
+   height: 200px;
+   background: black; 
+   -moz-border-radius: 50%; 
+   -webkit-border-radius: 50%; 
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.posterOverlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0.1) 30%
+    );
+    z-index: -1;
+}
+
+.poster img{
+    height: auto !important;
+    z-index: -2;
+    max-height: 100vh;
+    object-fit: cover;
+}

@@ -1,0 +1,38 @@
+.headerIcon {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    position: absolute;
+    left: 72%;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+
+}
+
+.navigation{
+    display: flex;
+    gap: 150px;
+    margin-top: 1.5%;
+}
+
+.navigationMenu{
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.headerInput{
+    font-size: 16px;
+    border-radius: 15px;
+    padding-left: 5%;
+    background-color: transparent;
+}

@@ -1,0 +1,25 @@
+.patternLeft{
+    position: absolute;
+    left: 0;
+    display: block;
+}
+
+.patternRight{
+    position: absolute;
+    right: 0;
+    display: block;
+}
+
+.image{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    gap: 55px;
+}
+.imageBox{
+    width: 450px;
+    height: 600px;
+    border: 1px solid #000;
+    display: block;
+    margin-top: 55px;
+}
